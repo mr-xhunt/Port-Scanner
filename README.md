@@ -1,3 +1,3 @@
 # Port-Scanner
 Port Scanning tool<br>
-Scans Ports 
+Scans All Ports 
