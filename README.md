@@ -1,4 +1,4 @@
 # Port-Scanner
 Use it to scan for ports (slower one)<br>
-#usage:
+<h3>usage:
       python PortScanner.py <ip-addr>
