@@ -1,3 +1,4 @@
-# Port-Scanner (currently  not working !)
-Port Scanning tool<br>
-working on project
+# Port-Scanner
+Use it to scan for ports (slower one)
+usage:
+      python PortScanner.py <ip-addr>
