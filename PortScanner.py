@@ -10,18 +10,18 @@ print(ascii_banner)
 
 # Usage function to show help information
 def show_usage():
-    print("Usage: python3 scanner.py <hostname> [-p <port_range>]")
+    print("Usage: python3 PortScanner.py <hostname> [-p <port_range>]")
     print("Options:")
     print("  -h                   Show this help message and exit")
     print("  -p <port_range>      Specify a port or range of ports to scan (e.g., 80 or 1-1024)")
     print("Examples:")
-    print("  python3 scanner.py example.com             # Scan common ports on example.com")
-    print("  python3 scanner.py example.com -p 80       # Scan only port 80 on example.com")
-    print("  python3 scanner.py example.com -p 20-80    # Scan ports 20 to 80 on example.com")
-    print("  python3 scanner.py example.com -p 80       # Scan only port 80 on example.com")
-    print("  python3 scanner.py example.com -p 20-80    # Scan ports 20 to 80 on example.com")
-    print("  python3 scanner.py 192.168.1.1 -p 443      # Scan only port 443 on IP address 192.168.1.1")
-    print("  python3 scanner.py 192.168.1.1 -p 1000-2000 # Scan ports 1000 to 2000 on IP address 192.168.1.1")
+    print("  python3 PortScanner.py example.com             # Scan common ports on example.com")
+    print("  python3 PortScanner.py example.com -p 80       # Scan only port 80 on example.com")
+    print("  python3 PortScanner.py example.com -p 20-80    # Scan ports 20 to 80 on example.com")
+    print("  python3 PortScanner.py example.com -p 80       # Scan only port 80 on example.com")
+    print("  python3 PortScanner.py example.com -p 20-80    # Scan ports 20 to 80 on example.com")
+    print("  python3 PortScanner.py 192.168.1.1 -p 443      # Scan only port 443 on IP address 192.168.1.1")
+    print("  python3 PortScanner.py 192.168.1.1 -p 1000-2000 # Scan ports 1000 to 2000 on IP address 192.168.1.1")
 
 # Parsing arguments
 if len(sys.argv) < 2:
